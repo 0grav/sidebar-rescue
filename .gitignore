@@ -1,0 +1,15 @@
+__pycache__/
+*.py[codc]
+.env*
+# Local Codex data and recovery artifacts must never be published.
+.codex*
+*.sqlite*
+*.backup*
+auth.json
+config.toml
+sessions/
+archived_sessions/
+*.jsonl
+*.log
+log/
+logs/
